@@ -1,24 +1,11 @@
-#include <stdio.h>
-int main (){
-	int a[5] ;
-	int *p[5];
-	int i,s=0;
-	printf (" enter the 5 number");
-	for (i=0;i<5;i++){
-		
-	
-
-	scanf ("%d",&a[i]);
-	p[i]=&a[i];
+#include<stdio.h>
+int main ()
+{
+	int a,b,c;
+	printf("Enter any two numbers\n");
+	scanf("%d %d",&a,&b);
+	c=a+b;
+	printf("The sum of two entered numbers is %d",c);
+	return 0;
+	getch ();
 }
-
-		for (i=0;i<5;i++){
-		
-s=s+**(p+i);
-}
-printf (" the sum is %d",s);
-return 0;
-}
-
-	
-	
